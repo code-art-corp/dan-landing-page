@@ -1,7 +1,7 @@
 {
   "name": "landing-page",
   "version": "0.1.0",
-  "homepage": "http://code-art-corp.github.io/dan",
+  "homepage": "http://code-art-corp.github.ionp/dan-landing-page",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
