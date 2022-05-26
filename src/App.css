@@ -1,38 +1,101 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  max-width: 1440px;
+  min-width: 1390px;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+.reset-a, .reset-a:hover, .reset-a:visited, .reset-a:focus, .reset-a:active  {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  cursor: auto;
+}
+
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  align-content: center;
+  padding-inline: 10%;
+}
+
+.Wellcome {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  padding: 80px 28px 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.Presentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 30vh;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subPresentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding-left: 10%;
+  min-height: 30vh;
+  min-width: 30%;
+  flex: 1;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 54px;
+  text-align: center;
+  color: #1d273d;
+  transition: .3s;
+}
+
+.title2 {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.subtitle2 {
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 5%;
 }
