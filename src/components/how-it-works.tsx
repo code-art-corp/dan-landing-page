@@ -7,7 +7,7 @@ import ErrorImg from '../assets/error.png'
 
 export const HowItWorks = () => {
     return (
-        <div id='hit'>
+        <div id='hit' >
             <div className="title" style={{marginBottom: '5%'}}>
                 How it works?
             </div>

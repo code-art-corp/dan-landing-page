@@ -6,34 +6,33 @@ export const Header = () => {
             <div style={{
                 display: 'flex',
                 flexDirection: 'row',
+                flexWrap: 'wrap',
                 alignItems: 'center',
-                flex: 1
+                flex: 1,
             }}>
                 <img src={LogoImg} width='200px' height='200px' />
-                <div className='title'>
-                    D.A.N
-                </div>
             </div>
             <div style={{
                 display: 'flex',
                 flexDirection: 'row',
+                flexWrap: 'wrap',
                 alignItems: 'center',
-                flex: 1
+                flex: 1,
             }}>
-                <div className='subtitle'>
+                <div className='subtitle' style={{flexGrow: 4}}>
                     <a href='#hit'> How it works </a>
                 </div>
 
-                <div className='subtitle'>
+                <div className='subtitle' style={{flexGrow: 1}}>
                     <a href='#tokenomics'>
                         Tokenomics
                     </a>
                 </div>
-                <div className='subtitle'>
-                    <a href='#founders'> Founder
+                <div className='subtitle' style={{flexGrow: 4}}>
+                    <a href='#founders'> Be a Founder
                     </a>
                 </div>
-                <div className='subtitle'>
+                <div className='subtitle' style={{flexGrow: 1}}>
                     <a href='#roadmap'>  Roadmap
                     </a>
                 </div>

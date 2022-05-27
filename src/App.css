@@ -1,8 +1,8 @@
 .App {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   max-width: 1440px;
-  min-width: 1390px;
 }
 
 a {
@@ -32,21 +32,22 @@ a.nostyle:visited {
 
 .Content {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   min-height: 100vh;
 }
 
 .Header {
   display: flex;
+  flex-wrap: wrap-reverse;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  align-content: center;
   padding-inline: 10%;
 }
 
 .Wellcome {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -55,21 +56,22 @@ a.nostyle:visited {
 
 .Presentation {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  min-height: 30vh;
   flex-wrap: wrap;
+  margin-bottom: 5%;
 }
 
 .subPresentation {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   align-content: center;
   padding-left: 10%;
   min-height: 30vh;
-  min-width: 30%;
   flex: 1;
 }
 

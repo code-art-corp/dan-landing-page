@@ -1,6 +1,6 @@
 export const Wellcome = () => {
     return (
-        <div className="Wellcome">
+        <div className="Wellcome" >
             <div className="title">
                 Descentralized Agreements Network
             </div>

@@ -1,6 +1,6 @@
 export const Presentation = () => {
     return (
-        <div className="Presentation">
+        <div className="Presentation" >
             <div className="subPresentation" style={{alignContent: 'flex-start', alignItems: 'flex-start'}}>
                 <div className="title2">
                     Whats?
