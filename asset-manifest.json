@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/dan-landing-page/static/css/main.8942c191.css",
-    "main.js": "/dan-landing-page/static/js/main.1a4182d3.js",
+    "main.css": "/dan-landing-page/static/css/main.7abf5527.css",
+    "main.js": "/dan-landing-page/static/js/main.19c9e24a.js",
     "static/js/787.6606bfd5.chunk.js": "/dan-landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/logo.png": "/dan-landing-page/static/media/logo.59c761ffac15c0b7e1eb.png",
-    "static/media/roadmap.png": "/dan-landing-page/static/media/roadmap.a125135efed53dc2b79f.png",
     "static/media/banner.png": "/dan-landing-page/static/media/banner.daa734809388d292d0ca.png",
+    "static/media/roadmap-backgroung.png": "/dan-landing-page/static/media/roadmap-backgroung.bdf20f63ee1f949120d9.png",
     "static/media/judge.png": "/dan-landing-page/static/media/judge.0f85528652f4da5cddd2.png",
     "static/media/contractor.png": "/dan-landing-page/static/media/contractor.79c1cf82a6016107cf2b.png",
     "static/media/hired.png": "/dan-landing-page/static/media/hired.d750384b1608083b48ab.png",
     "static/media/tokenomics.png": "/dan-landing-page/static/media/tokenomics.be0c15aa6e2290a0acb8.png",
+    "static/media/roadmap.png": "/dan-landing-page/static/media/roadmap.366a33ed8814d8bec71f.png",
     "static/media/success.png": "/dan-landing-page/static/media/success.2b4c024699f35f671911.png",
     "static/media/error.png": "/dan-landing-page/static/media/error.4008e8de7b4ec02353ee.png",
     "index.html": "/dan-landing-page/index.html",
-    "main.8942c191.css.map": "/dan-landing-page/static/css/main.8942c191.css.map",
-    "main.1a4182d3.js.map": "/dan-landing-page/static/js/main.1a4182d3.js.map",
+    "main.7abf5527.css.map": "/dan-landing-page/static/css/main.7abf5527.css.map",
+    "main.19c9e24a.js.map": "/dan-landing-page/static/js/main.19c9e24a.js.map",
     "787.6606bfd5.chunk.js.map": "/dan-landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8942c191.css",
-    "static/js/main.1a4182d3.js"
+    "static/css/main.7abf5527.css",
+    "static/js/main.19c9e24a.js"
   ]
 }
